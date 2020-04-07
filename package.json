@@ -1,0 +1,14 @@
+{
+  "name": "tea-portfolio",
+  "version": "1.0.0",
+  "description": "College Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css --recursive"
+  },
+  "author": "Aimee Ruiz",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
