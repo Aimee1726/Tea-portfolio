@@ -1,5 +1,5 @@
-$primary-color: #444;
-$secondary-color: #eece1a;
+$primary-color: #bbaba5;
+$secondary-color: #699797;
 $show-home-image: true;
 $home-image: url(../img/markus-spiske-VQpOgh5R68I-unsplash.jpg);
 $background-opacity: 0.8;
@@ -32,7 +32,7 @@ $background-opacity: 0.8;
 // Set Text Color
 @function set-text-color($color) {
   @if (lightness($color) > 40) {
-    @return #000;
+    @return #3e3b3a;
   } @else {
     @return #fff;
   }
