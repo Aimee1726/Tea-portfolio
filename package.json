@@ -5,6 +5,7 @@
   "main": "index.js",
   "homepage": "https://Aimee1726.github.io/Tea-portfolio",
   "scripts": {
+    "build": "npm build",
     "sass": "node-sass -w scss/ -o dist/css --recursive",
     "deploy": "gh-pages -d dist",
     "custom-script-name": "netlify init"
